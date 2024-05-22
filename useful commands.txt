@@ -1,0 +1,27 @@
+minikube start --driver docker			=> starts minikube cluster on docker driver "recommended"
+
+minikube start --driver virtualbox			=> starts minukube cluster on virtualbox driver
+
+minikube start --driver docker --cpus 4 --memory 8192	=> starts minikube cluster on docker driver with 4 cpus and 8 GB memory
+
+minikube delete					=> deletes minikube cluster's profile
+
+minikube start / stop / status / delete / pause / unpause / dashboard
+
+kubectl get node					=> displays all nodes in a cluster
+
+echo -n mongouser | base64				=> to encode username and password for the secret config
+
+kubectl get all						=> lists deployments, services and replicas
+
+kubectl get configmap					=> lists config map
+
+kubectl get secret					=> lists secrets
+
+kubectl describe service webapp-service			=> describes a service
+
+kubectl get svc						=> lists all running services
+
+minikube ip						=> gets minikube ip address
+
+
